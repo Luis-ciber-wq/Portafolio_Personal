@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Luis</title>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>MI PORTAFOLIO</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#sobre-mi">Sobre mí</a> |
+                    <a href="#habilidades">Habilidades</a> |
+                    <a href="#proyectos">Proyectos</a> |
+                    <a href="#contacto">Contacto</a> |
+                    <a href="#info-adicional">Información Adicional</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección: Sobre mí -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <div>
+                <figure>
+                    <img src="fotoperfil.jpeg" alt="Foto de perfil de Luis Fernando" width="150" height="200">
+                    <figcaption>Foto de perfil</figcaption>
+                </figure>
+                <div>
+                    <p>Hola, soy Luis Fernando Leon Pinango, un apasionado del desarrollo web y estudiante de 3er semestre en la carrera de Sistemas de Información en la Universidad Técnica de Babahoyo. Mi objetivo es convertirme en un desarrollador web especializado en soluciones intuitivas y eficientes, contribuyendo a proyectos innovadores en tecnología que impacten positivamente en la experiencia del usuario.</p>
+                    
+                    <p>He trabajado en varios Proyectos de Integración de Saberes (PIS) en la universidad, los cuales fueron bien recibidos y me ayudaron a consolidar mis habilidades en estructuración y organización de contenidos. A través de estos proyectos, he adquirido experiencia en la creación de soluciones prácticas y en la resolución de problemas comunes en el desarrollo web.</p>
+                    
+                    <p>Me interesa seguir explorando el desarrollo de interfaces de usuario, con un énfasis particular en UX/UI y frameworks modernos como React, buscando siempre mejorar continuamente mis habilidades para ofrecer experiencias atractivas y funcionales a los usuarios finales. Creo que la dedicación y el esfuerzo en equipo son clave para alcanzar grandes resultados y llevar la tecnología al siguiente nivel. Me guío por el compromiso en cada proyecto, buscando siempre soluciones prácticas y útiles para los usuarios. Para mí, cada proyecto es una oportunidad de aprendizaje y un paso hacia mi meta profesional.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <p>Poseo una sólida comprensión de las tecnologías de desarrollo web, con habilidades destacadas en HTML5 y CSS3. Estos conocimientos me permiten construir sitios bien estructurados, organizados y visualmente atractivos, siguiendo los principios básicos de accesibilidad y usabilidad. He trabajado de manera continua en mejorar mi manejo de JavaScript, que considero fundamental para dotar de interactividad y dinamismo a las páginas web, y recientemente he comenzado a profundizar en React, una de las bibliotecas de JavaScript más demandadas, para la creación de interfaces de usuario eficaces y funcionales.</p>
+
+            <p>En el lado del desarrollo de backend, tengo experiencia inicial en Node.js y bases de datos como MySQL, los cuales empleo para gestionar datos y construir aplicaciones que sean capaces de almacenar, manipular y servir información de forma eficiente. Además, considero a Git una herramienta esencial en mi flujo de trabajo para el control de versiones, permitiéndome colaborar en proyectos y mantener un seguimiento claro de las actualizaciones y mejoras. En conjunto, estas habilidades reflejan mi compromiso con la mejora continua y el aprendizaje de nuevas tecnologías que puedan añadir valor a mis proyectos y a las soluciones que propongo.</p>
+        </section>
+
+        <!-- Sección: Proyectos -->
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <p>A continuación, te presento algunos de los proyectos en los que he trabajado, aplicando mis conocimientos en desarrollo web y diseño de interfaces. Cada proyecto ha sido una oportunidad de aprendizaje y un desafío para implementar soluciones prácticas y efectivas.</p>
+            
+            <ul>
+                <li>
+                    <h3>Sistema de Gestión Académica</h3>
+                    <img src="sga.jpg" alt="PROYECTO1" width="1250" height="200">
+                    <p>Este proyecto fue desarrollado para gestionar de manera eficiente la información académica de una institución educativa. Incluye módulos para el manejo de estudiantes, asignaturas y notas, permitiendo a los usuarios acceder a los datos de forma rápida y segura. En este proyecto apliqué conocimientos en HTML5 y JavaScript, enfocándome en la usabilidad y en la organización de la información.</p>
+                </li>
+                
+                <li>
+                    <h3>Aplicación de Tareas</h3>
+                    <img src="tody.jpg" alt="PROYECTO2" width="1250" height="400">
+                    <p>Desarrollé una aplicación web para la gestión de tareas, donde los usuarios pueden agregar, editar y eliminar tareas, así como marcarlas como completadas. Este proyecto me ayudó a mejorar mis habilidades en JavaScript, particularmente en la manipulación del DOM y en la creación de una interfaz de usuario interactiva y fácil de usar.</p>
+                </li>
+                
+                <li>
+                    <h3>Portafolio Personal</h3>
+                    <img src="ME.jpg" alt="PROYECTO3" width="1250" height="350">
+                    <p>Este portafolio fue diseñado para mostrar mis habilidades, proyectos y experiencia profesional de una manera organizada y accesible. Implementé una estructura HTML5 semántica, destacando la importancia de cada sección y optimizando la navegación. Este proyecto me permitió perfeccionar mis habilidades en la estructuración y presentación de contenidos.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Sección: Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si deseas ponerte en contacto conmigo, completa el siguiente formulario y me comunicaré contigo a la brevedad.</p>
+            <form id="contactForm" action="javascript:void(0);" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required><br><br>
+                
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required><br><br>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="confirmMessage" style="display:none; color:green;">¡Gracias por tu mensaje! Me pondré en contacto contigo pronto.</p>
+        </section>
+
+        <!-- Sección: Información Adicional -->
+        <section id="info-adicional">
+            <h2>Información Adicional</h2>
+            <table>
+                <tr>
+                    <th>Habilidad</th>
+                    <th>Nivel</th>
+                    <th>Descripción</th>
+                </tr>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Intermedio</td>
+                    <td>Capaz de crear estructuras semánticas completas, optimizando la accesibilidad y usabilidad.</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Intermedio</td>
+                    <td>Conocimiento suficiente para realizar estilos personalizados y layouts responsivos básicos.</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Habilidad en manipulación del DOM y creación de interactividad simple.</td>
+                </tr>
+                <tr>
+                    <td>Node.js</td>
+                    <td>Básico</td>
+                    <td>Capacidad para configurar y gestionar servidores básicos y conectar aplicaciones a bases de datos.</td>
+                </tr>
+                <tr>
+                    <td>MySQL</td>
+                    <td>Básico</td>
+                    <td>Capacidad para realizar operaciones CRUD y gestionar bases de datos simples.</td>
+                </tr>
+                <tr>
+                    <td>Git</td>
+                    <td>Intermedio</td>
+                    <td>Conocimiento en control de versiones, colaborando en proyectos y manejo de branches.</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Luis. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function() {
+            document.getElementById('confirmMessage').style.display = 'block';
+            document.getElementById('contactForm').reset();
+        });
+    </script>
+</body>
+</html>
+
