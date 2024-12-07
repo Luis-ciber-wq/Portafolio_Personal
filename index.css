@@ -196,3 +196,32 @@ h1, h2, h3 {
     background-color: #ffffff;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
+
+/* Media Query */
+@media (max-width: 768px) {
+    .about-container, .contact-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form label, .contact-form input, .contact-form textarea {
+        flex-basis: 100%;
+    }
+
+    .profile-container {
+        text-align: center;
+    }
+
+    .profile-image {
+        margin: 0 auto;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contact-form button {
+        padding: 12px;
+    }
+}
